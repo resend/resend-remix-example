@@ -25,3 +25,7 @@ npm run dev
   ```
 http://localhost:3000/send
   ```
+
+## License
+
+MIT License
