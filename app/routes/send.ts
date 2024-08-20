@@ -1,9 +1,13 @@
-import { json } from '@remix-run/node';
+import { json, redirect } from '@remix-run/node';
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const loader = async () => {
+  return redirect('/');
+}
+
+export const action = async () => {
   try {
     const data = await resend.emails.send({
       from: 'Acme <onboarding@resend.dev>',
