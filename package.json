@@ -4,28 +4,26 @@
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
-    "start": "remix-serve build",
-    "typecheck": "tsc"
+    "lint:fix": "biome check . --write",
+    "lint": "biome check .",
+    "start": "remix-serve build"
   },
   "dependencies": {
-    "@remix-run/css-bundle": "^2.0.0",
-    "@remix-run/node": "^2.0.0",
-    "@remix-run/react": "^2.0.0",
-    "@remix-run/serve": "^2.0.0",
-    "isbot": "^5.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "resend": "^3.0.0"
+    "@remix-run/css-bundle": "2.0.0",
+    "@remix-run/node": "2.0.0",
+    "@remix-run/react": "2.0.0",
+    "@remix-run/serve": "2.0.0",
+    "isbot": "5.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "resend": "3.0.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.0.0",
-    "@remix-run/eslint-config": "^2.0.0",
-    "@types/react": "^18.0.35",
-    "@types/react-dom": "^18.0.11",
-    "eslint": "^8.38.0",
-    "typescript": "^5.0.4"
+    "@biomejs/biome": "1.9.4",
+    "@remix-run/dev": "2.0.0",
+    "@types/react": "18.0.35",
+    "@types/react-dom": "18.0.11",
+    "typescript": "5.0.4"
   },
-  "engines": {
-    "node": ">=14"
-  }
+  "packageManager": "pnpm@10.11.1"
 }

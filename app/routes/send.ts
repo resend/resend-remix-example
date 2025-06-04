@@ -13,8 +13,7 @@ export const loader = async () => {
     });
 
     return json(data, 200);
-  }
-  catch (error) {
+  } catch (error) {
     return json({ error }, 400);
   }
 };

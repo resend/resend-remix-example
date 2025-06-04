@@ -6,25 +6,27 @@ This example shows how to use Resend with [Remix](https://remix.run).
 
 1. Define environment variables in `.env` file.
 
+```sh
+cp .env.example .env
+```
+
 2. Install dependencies:
 
-  ```sh
-npm install
-# or
-yarn
-  ```
+```sh
+pnpm install
+```
 
 3. Run Remix locally:
 
-  ```sh
-npm run dev
-  ```
+```sh
+pnpm dev
+```
 
 4. Open URL in the browser:
 
-  ```
+```
 http://localhost:3000/send
-  ```
+```
 
 ## License
 
