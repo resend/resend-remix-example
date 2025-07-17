@@ -16,7 +16,7 @@
     "isbot": "5.1.28",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "resend": "4.6.0"
+    "resend": "4.7.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.1",
