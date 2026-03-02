@@ -14,15 +14,15 @@
     "@remix-run/react": "2.16.8",
     "@remix-run/serve": "2.16.8",
     "isbot": "5.1.28",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
     "resend": "4.6.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.1",
     "@remix-run/dev": "2.16.8",
-    "@types/react": "19.1.8",
-    "@types/react-dom": "19.1.6",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
     "typescript": "5.8.3"
   },
   "packageManager": "pnpm@10.13.1"
